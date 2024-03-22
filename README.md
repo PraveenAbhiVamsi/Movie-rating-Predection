@@ -12,6 +12,27 @@ This project aims to predict movie ratings based on user reviews using a hybrid 
 - Pandas
 - Matplotlib
 - Jupyter Notebook (optional, for running the provided notebooks)
+- google colab (preferable)
 
-## Installation
-1. Clone this repository:
+
+# Model Architecture
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embedding (Embedding)       (None, 50, 100)           10785300  
+                                                                 
+ conv1d (Conv1D)             (None, 46, 128)           64128     
+                                                                 
+ max_pooling1d (MaxPooling1  (None, 11, 128)           0         
+ D)                                                              
+                                                                 
+ conv1d_1 (Conv1D)           (None, 7, 64)             41024     
+                                                                 
+ max_pooling1d_1 (MaxPoolin  (None, 1, 64)             0         
+ g1D)                                                            
+                                                                 
+ lstm (LSTM)                 (None, 64)                33024     
+                                                                 
+ dense (Dense)               (None, 1)                 65        
+                                                                 
+=================================================================
