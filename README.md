@@ -38,4 +38,4 @@ _________________________________________________________________
 =================================================================
 
 # Acknowledgement
-I sincerely extend my Thanks to Nikhitha (https://github.com/KanchetiSaiNikhitha)   
+I sincerely extend my Thanks to **Nikhitha** (https://github.com/KanchetiSaiNikhitha) for valuable contribution aa a fellow teammate. 
