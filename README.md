@@ -36,3 +36,6 @@ _________________________________________________________________
  dense (Dense)               (None, 1)                 65        
                                                                  
 =================================================================
+
+# Acknowledgement
+I sincerely extend my Thanks to Nikhitha (https://github.com/KanchetiSaiNikhitha)   
